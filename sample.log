@@ -1,0 +1,15 @@
+2024-01-15 08:00:01 INFO Infotainment system boot sequence started
+2024-01-15 08:00:03 INFO Touchscreen display initialized
+2024-01-15 08:00:05 INFO Loading user profile: driver_1
+2024-01-15 08:01:12 WARNING Low memory detected: 85% usage
+2024-01-15 08:01:45 INFO Bluetooth service started
+2024-01-15 08:02:33 ERROR Failed to connect to media streaming service
+2024-01-15 08:02:34 INFO Retrying connection attempt 1 of 3
+2024-01-15 08:03:01 ERROR Bluetooth stack crashed unexpectedly
+2024-01-15 08:03:45 WARNING GPS signal weak: accuracy degraded
+2024-01-15 08:04:10 INFO Navigation service loaded successfully
+2024-01-15 08:04:55 WARNING CPU temperature high: 91C
+2024-01-15 08:05:22 ERROR UI thread unresponsive for 3 seconds
+2024-01-15 08:05:50 INFO Watchdog timer reset UI thread
+2024-01-15 08:06:10 ERROR Rear camera feed failed to initialize
+2024-01-15 08:06:30 INFO System health check complete
