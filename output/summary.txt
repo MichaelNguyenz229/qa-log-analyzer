@@ -1,4 +1,20 @@
+================================
+QA LOG ANALYSIS SUMMARY
+Analyzed: sample.log
+Date: Fri Feb 20 18:37:26 PST 2026
+================================
+
+COUNTS:
+  ERROR:    4
+  WARNING:  3
+  INFO:     12
+  -------------------------
+  TOTAL:    19
+
+TOP ERRORS:
 2024-01-15 08:02:33 ERROR Audio DSP pipeline failed: codec negotiation timeout
 2024-01-15 08:03:01 ERROR CAN bus frame drop detected: vehicle_network_0 — 14 frames lost
 2024-01-15 08:05:22 ERROR UI render thread unresponsive: watchdog timeout after 3200ms
 2024-01-15 08:06:10 ERROR Rear camera ISP feed lost: MIPI CSI-2 lane error
+
+================================

@@ -1,0 +1,3 @@
+2024-01-15 08:01:12 WARNING MCU2 memory usage high: 87% — garbage collection triggered
+2024-01-15 08:03:45 WARNING GPS signal degraded: HDOP 4.2 — switching to dead reckoning
+2024-01-15 08:04:55 WARNING Tegra X2 thermal throttling: core temp 94C — clock reduced

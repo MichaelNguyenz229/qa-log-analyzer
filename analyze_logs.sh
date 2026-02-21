@@ -53,3 +53,37 @@ echo "INFO count: $INFO_COUNT"
 echo "$ERRORS" > $ERROR_FILE
 echo ""
 echo "Errors saved to $ERROR_FILE"
+
+# --- Save warnings to separate file ---
+echo "$WARNINGS" > "$OUTPUT_DIR/warnings.log"
+echo "Warnings saved to: $OUTPUT_DIR/warnings.log"
+
+# --- Generate summary report ---
+echo ""
+echo "Generating summary report..."
+
+cat > $SUMMARY_FILE << EOF
+================================
+QA LOG ANALYSIS SUMMARY
+Analyzed: $LOG_FILE
+Date: $(date)
+================================
+
+COUNTS:
+  ERROR:    $ERROR_COUNT
+  WARNING:  $WARNING_COUNT
+  INFO:     $INFO_COUNT
+  -------------------------
+  TOTAL:    $(grep -c "" $LOG_FILE)
+
+TOP ERRORS:
+$(grep "ERROR" $LOG_FILE)
+
+================================
+EOF
+
+echo "Summary saved to: $SUMMARY_FILE"
+echo ""
+echo "================================"
+echo "   Analysis Complete"
+echo "================================"

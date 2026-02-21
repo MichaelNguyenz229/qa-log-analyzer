@@ -1,15 +1,19 @@
-2024-01-15 08:00:01 INFO Infotainment system boot sequence started
-2024-01-15 08:00:03 INFO Touchscreen display initialized
-2024-01-15 08:00:05 INFO Loading user profile: driver_1
-2024-01-15 08:01:12 WARNING Low memory detected: 85% usage
-2024-01-15 08:01:45 INFO Bluetooth service started
-2024-01-15 08:02:33 ERROR Failed to connect to media streaming service
-2024-01-15 08:02:34 INFO Retrying connection attempt 1 of 3
-2024-01-15 08:03:01 ERROR Bluetooth stack crashed unexpectedly
-2024-01-15 08:03:45 WARNING GPS signal weak: accuracy degraded
-2024-01-15 08:04:10 INFO Navigation service loaded successfully
-2024-01-15 08:04:55 WARNING CPU temperature high: 91C
-2024-01-15 08:05:22 ERROR UI thread unresponsive for 3 seconds
-2024-01-15 08:05:50 INFO Watchdog timer reset UI thread
-2024-01-15 08:06:10 ERROR Rear camera feed failed to initialize
-2024-01-15 08:06:30 INFO System health check complete
+2024-01-15 08:00:01 INFO MCU2 boot sequence initiated: firmware v11.2.4
+2024-01-15 08:00:03 INFO Tegra X2 display controller initialized
+2024-01-15 08:00:05 INFO Loading driver profile: seat_1, language: en_US
+2024-01-15 08:00:08 INFO CAN bus connection established: vehicle_network_0
+2024-01-15 08:00:12 INFO Tesla UI shell started: rendering engine v4.1
+2024-01-15 08:01:05 INFO Autopilot HMI overlay loaded successfully
+2024-01-15 08:01:12 WARNING MCU2 memory usage high: 87% — garbage collection triggered
+2024-01-15 08:01:45 INFO Bluetooth audio service started: codec AAC
+2024-01-15 08:02:10 INFO OTA update check complete: system up to date
+2024-01-15 08:02:33 ERROR Audio DSP pipeline failed: codec negotiation timeout
+2024-01-15 08:02:34 INFO Retrying DSP pipeline initialization: attempt 1 of 3
+2024-01-15 08:03:01 ERROR CAN bus frame drop detected: vehicle_network_0 — 14 frames lost
+2024-01-15 08:03:45 WARNING GPS signal degraded: HDOP 4.2 — switching to dead reckoning
+2024-01-15 08:04:10 INFO Navigation service loaded: map tile cache warm
+2024-01-15 08:04:55 WARNING Tegra X2 thermal throttling: core temp 94C — clock reduced
+2024-01-15 08:05:22 ERROR UI render thread unresponsive: watchdog timeout after 3200ms
+2024-01-15 08:05:50 INFO Watchdog timer recovered UI thread: frame buffer flushed
+2024-01-15 08:06:10 ERROR Rear camera ISP feed lost: MIPI CSI-2 lane error
+2024-01-15 08:06:30 INFO System health check complete: 4 errors logged
