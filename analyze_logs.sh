@@ -8,7 +8,7 @@
 # ============================================
 
 # --- Configuration ---
-LOG_FILE="sample.log"
+LOG_FILE="${1:-sample.log}"
 OUTPUT_DIR="output"
 ERROR_FILE="$OUTPUT_DIR/errors.log"
 SUMMARY_FILE="$OUTPUT_DIR/summary.txt"
