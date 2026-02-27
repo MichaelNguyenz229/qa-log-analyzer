@@ -55,16 +55,6 @@ Summary saved to: output/summary.txt
 ================================
 ```
 
-## Sample Log Data
-
-Includes realistic MCU2/Tegra X2 infotainment log data covering:
-- CAN bus frame drop detection
-- Audio DSP pipeline failures  
-- UI render thread watchdog timeouts
-- Rear camera MIPI CSI-2 lane errors
-- GPS signal degradation with HDOP metrics
-- Thermal throttling events
-
 ## Tech
 
 - Bash scripting
